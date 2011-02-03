@@ -1,0 +1,4 @@
+#!/bin/bash
+
+PW=`pwd`
+eval "qsub -d \"$PW\" $@" 
